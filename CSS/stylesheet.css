@@ -1,0 +1,44 @@
+body{
+	background-color : green ;
+}
+
+.nav{
+	
+	height :15px;
+	width: 100%
+	background-color: teal;
+}
+
+.img{
+	
+	width: 25%;
+	margin-left: auto;
+}
+
+.img-caintainer{
+		display:flex;
+}
+
+.header{
+	height: 30px;
+	width: 100%
+	background-color: blue;
+}
+
+.side{
+	height: 500px;
+	width: 40%;
+	background-color: red;
+}
+
+.main{
+	height: 400px;
+	width: 60%;
+	background-color: yellow;
+}
+
+.footer{
+	height: 15px;
+	width: 100%;
+	background-color: grey;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <title>JavaScript demo</title>
+	  <!-- add the link tag to the style.css which will be in a folder -->
+	  <link rel="stylesheet" href="CSS/stylesheet.css">
+	  
+	  
+	  <!-- used to embed client side script/JS -->
+	  <script type="text/javascript">
+		//comment in JS
+		
+		//add 3 examples of javascript
+		
+		//example 1 - Get the user input for their Age and Speed then output the penaltypoints
+		var age = parseInt(prompt("Enter your age"));
+		   
+		var speed = parseInt(prompt("Enter you speed"));
+		   
+			if((speed > 50) && (age < 20)){
+				document.write("2 penalty points		");
+			}else if ((age < 16) || (speed > 50)){
+				document.write("4 penalty points		");
+			}
+			
+		//example 2 - Guess the number
+		var secret = 5;
+		var guess = parseInt(prompt("Enter a guess 1-5"));
+		
+			if(secret == guess){
+				document.write("Guessed it		");
+			}else if(secret < guess){
+				document.write("guess is too high		");
+			}else if(secret > guess){
+				document.write("secret is bigger than guess		");
+			}else{
+				document.write("invalid input")
+			}
+		
+		//example 3 - Grading System
+		
+		var grade;
+		grade = parseInt(prompt("what is the grade you recieved ?"));
+			if(grade>=74){
+			//distinction
+			//The student has passed with distinction and that message will be displayed
+			//The student has failed and that message will be displayed
+				document.write("You have got Distinction");
+			}else if((grade<74) && (grade=>50)){
+			//merit
+			//The student has passed with merit and that message will be displayed
+				document.write("You have got Merit");
+			}else if((grade<=50) && (grade=>40)){
+			//pass
+			//The student has passed and that message will be displayed
+				document.write("You have Passed");
+			}else if((grade>40) && (grade<=0)){
+			//fail
+			//The student has failed and that message will be displayed
+				document.write("You have Failed");
+			}else{
+			//invaild
+			//Message will display invaild if the user input other values eg:name
+				document.write("Invaild input")
+			}
+	
+	  </script>
+	  	  
+	</head>
+	<body>
+		<h1>Graded lab exercise</h1>
+		<p>add 3 examples of javascript</p>
+		<p>create a repo in github and add your project when finished</p>
+		<p>post just the link to the github repo in OneNote</p>
+		<p>you link should look like this https://github/username/repoName.git </p>
+	</body>
+</html>
